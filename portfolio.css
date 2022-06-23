@@ -23,21 +23,7 @@ body {
 	position: fixed;
 	justify-content: space-between;
 	align-items: center;
-	background-image: linear-gradient(
-		to bottom,
-		#646464,
-		#696969,
-		#6e6e6e,
-		#737373,
-		#787878,
-		#7c7c7c,
-		#808080,
-		#848484,
-		#878787,
-		#8b8b8b,
-		#8e8e8e,
-		#929292
-	);
+	background: #4b4b4b;
 	width: 100%;
 	z-index: 1000;
 }
@@ -78,7 +64,7 @@ ul.nav-menu {
 .nav-menu li a:hover {
 	background: #646464;
 	transition: 0.5s;
-	color: #fff;
+	color: #ff7301;
 }
 
 .menu-icon {
