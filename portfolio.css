@@ -498,7 +498,12 @@ ul.nav-menu {
 	}
 
 	.about-container {
-		height: 90vh;
+		height: 100vh;
+	}
+	.about-info h2 {
+		bottom: 50px;
+		font-size: 25px;
+		margin-top: 20px;
 	}
 }
 
