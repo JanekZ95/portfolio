@@ -498,15 +498,13 @@ ul.nav-menu {
 	}
 
 	.about-container {
-		height: 120vh;
+		height: 100vh;
 	}
 }
 
 @media screen and (max-width: 380px) {
 	.about-container {
-		height: 100vh;
-		display: flex;
-		width: 100%;
+		height: 120vh;
 	}
 }
 /* Projects Section */
