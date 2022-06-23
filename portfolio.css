@@ -452,6 +452,31 @@ ul.nav-menu {
 	}
 }
 
+@media screen and (max-width: 800px) {
+	.about-container {
+		height: 105vh;
+	}
+
+	.about-content p {
+		margin: 0px 10px;
+		font-size: 18px;
+	}
+
+	.about-container img {
+		margin-top: 0px;
+		margin-right: 0px;
+		position: relative;
+		width: 200px;
+		box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+	}
+
+	.about-info h2 {
+		bottom: 50px;
+		font-size: 25px;
+		margin-top: 70px;
+	}
+}
+
 @media screen and (max-width: 420px) {
 	.about-content {
 		flex-direction: column;
@@ -663,7 +688,6 @@ ul.nav-menu {
 }
 
 @media screen and (max-width: 850px) {
-
 	.project-card {
 		gap: 20px;
 	}
@@ -685,11 +709,11 @@ ul.nav-menu {
 	.project-container h3 {
 		margin-bottom: 30px;
 	}
-	
+
 	.project-container .project-info h4 {
 		margin-top: 10px;
 	}
-	
+
 	.btn-code {
 		margin-top: 0px;
 	}
@@ -818,8 +842,8 @@ ul.nav-menu {
 		flex-direction: column;
 		margin: 0px 5px 0px 5px;
 	}
-	
-	.contact-info li a{
+
+	.contact-info li a {
 		margin-top: 10px;
 	}
 
@@ -834,17 +858,15 @@ ul.nav-menu {
 }
 
 @media screen and (max-width: 880px) {
-
 	.contact-container h3 {
 		margin-top: 100px;
 	}
 	.contact-container {
-		height: 80vh;
+		height: 90vh;
 	}
 }
 
 @media screen and (max-width: 420px) {
-
 	.contact-info li {
 		display: flex;
 		flex-direction: row;
@@ -865,7 +887,6 @@ ul.nav-menu {
 		padding: 25px 25px;
 		margin-top: 5px;
 	}
-
 
 	.contact-container .contact-info {
 		display: flex;
@@ -911,8 +932,8 @@ ul.nav-menu {
 		border-radius: 50px;
 		margin: 0 15px;
 	}
-	
-	@media screen and (max-width: 380px)  {
+
+	@media screen and (max-width: 380px) {
 		.contact-container {
 			height: 100vh;
 		}
