@@ -62,7 +62,7 @@ ul.nav-menu {
 }
 
 .nav-menu li a:hover {
-	background: #646464;
+	/* background: #646464; */
 	transition: 0.5s;
 	color: #ff7301;
 }
